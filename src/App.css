@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.home_Container{
+  /* border: 3px solid red; */
+  height: 100vh;
+}
+
+.header{
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.home_Banner{
+  /* border: 1px solid black; */
+  position: absolute;
+  left: 0;
+  top:0;
+  width: 100vw;
+  height: 408px;
+  background-color: aquamarine;
+  z-index: -1;
+}
+
+
+.socialmedia_contact{
+  display: flex;
+}
+
+.social-box{
+  border: 1px solid black;
+  margin: 0 5px;
+  width: 75px;
+  height: 75px;
+}
+
+.home_Body{
+  /* border: 1px solid purple; */
+  width: 100vw;
+  padding: 0 20px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.businessName{
+  font-size: 5em;
+}
